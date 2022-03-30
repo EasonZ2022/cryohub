@@ -1,4 +1,4 @@
-Template for the Read the Docs tutorial
+cryoHub - a customizable web interface for cryo-EM data processing
 =======================================
 
 This GitHub template includes fictional Python library
