@@ -1,34 +1,44 @@
 Usage
 =====
 
+cryoHub uses React as the frontend framework, Node.js for backend and MariaDB as the database.
+
 .. _installation:
 
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+We wrapped the installation commands in a separate shell script. It will automatically download
+and install the required prerequisites (Node and MariaDB).
 
 .. code-block:: console
 
-   (.venv) $ pip install lumache
+   $ something
 
-Creating recipes
-----------------
+.. note::
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+   cryoHub works as a “wrapper” for the existing tools and software.
+   Therefore, cryoHub **does not** include or distribute any cryo-EM software by itself.
+   For example, although we provide the support for RELION commands, installing cryoHub will not
+   install RELION on your machine.
 
-.. autofunction:: lumache.get_random_ingredients
+.. _deployment:
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+Deployment
+------------
 
-.. autoexception:: lumache.InvalidKindError
+.. note::
 
-For example:
+   cryoHub is designed to run on a GPU workstation, therefore it cannot handle CPU cluster
+   with a scheduler for now. If you want to use it in such environment, the best way
+   would be using cryoHub in an interactive session.
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+We wrapped the commands to start the application in a separate shell script. It will start both
+the server and the client sides on the workstation.
 
+.. code-block:: console
+
+   $ something
+
+You can access the application with the URL: xyzxyz.
+This URL is customizable in somefile.

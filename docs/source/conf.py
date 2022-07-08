@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'cryoHub'
+copyright = '2022, yilaili'
+author = 'yilaili'
 
 release = '0.1'
 version = '0.1.0'
