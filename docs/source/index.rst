@@ -1,13 +1,24 @@
-Welcome to Lumache's documentation!
+Welcome to cryoHub's documentation!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+.. note::
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+   This documentation explains how to add your own tools to cryoHub with config files
+   and how to customize visualization displays for the tools.
+   This is not a documentation of the cryoHub software source code.
+   If you are interested in learning more about the software source code itself,
+   feel free to contact me at yilai@umich.edu.
+
+cryoHub is a software that provides a user-friendly web interface for the existing
+command line-based tools with an easy user, project and job management. Orginally
+designed for cryo-EM data processing, cryoHub can actually be easily extended to other
+fields.
+
+For method developers, cryoHub works as an "engine" to enable a web-based GUI for
+your command line-based tools with minimum efforts.
+This documentation will explain how to install cryoHub, add your own tools
+or edit existing tools, and use the existing visualization widgets for your tools.
+
 
 .. note::
 
@@ -19,4 +30,5 @@ Contents
 .. toctree::
 
    usage
-   api
+   yaml
+   visualization
