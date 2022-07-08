@@ -3,7 +3,6 @@ Usage
 
 cryoHub uses React as the frontend framework, Node.js for backend and MariaDB as the database.
 
-.. _installation:
 
 Installation
 ------------
@@ -22,7 +21,6 @@ and install the required prerequisites (Node and MariaDB).
    For example, although we provide the support for RELION commands, installing cryoHub will not
    install RELION on your machine.
 
-.. _deployment:
 
 Deployment
 ------------

@@ -1,5 +1,5 @@
 Creating/editing tools
-===
+======================
 
 In cryoHub, all the available tools (commands) can be found in the ``Command Runner`` section: [image]
 
@@ -12,7 +12,7 @@ YAML files so that it suits your needs better.
 
 
 Rules
-------------
+-----
 1. The added tool needs to be able to run from the command line.
 
 2. cryoHub follows RELION's convention for project and job organization, for example::
@@ -25,7 +25,7 @@ Rules
 
 
 Example
-------------
+-------
 
 Here is a snippet of an example yaml file::
 
@@ -58,4 +58,4 @@ The resulting UI in the ``Command Runner`` is: [image]
 
 
 Detailed description of the YAML file
-~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

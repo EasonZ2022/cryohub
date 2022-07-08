@@ -10,9 +10,9 @@ Welcome to cryoHub's documentation!
    feel free to contact me at yilai@umich.edu.
 
 cryoHub is a software that provides a user-friendly web interface for the existing
-command line-based tools with an easy user, project and job management. Orginally
-designed for cryo-EM data processing, cryoHub can actually be easily extended to other
-fields.
+command line-based tools with an easy user, project and job management. Originally
+designed for cryo-EM data processing, cryoHub can actually be extended to other
+fields as well.
 
 For method developers, cryoHub works as an "engine" to enable a web-based GUI for
 your command line-based tools with minimum efforts.

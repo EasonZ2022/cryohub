@@ -1,5 +1,5 @@
 Visualization
-===
+=============
 
 In cryoHub, we have created some pre-defined widget to display images and objects.
 We will continue to work on them and add new widgets.
@@ -28,7 +28,7 @@ Plain images
 
 
 Images in a list
-------------
+----------------
 
 ``File name``: ``ls-*`` as the prefix (e.g. ``ls-aa.png``)
 
@@ -40,7 +40,7 @@ Images in a list
 
 
 Visualization in groups
-------------
+-----------------------
 
 ``File name``: ``itxxx-*`` as the prefix (e.g. ``it001-aa.png``, ``it016-aa.png``, ``it004-ls-aa.png``)
 
