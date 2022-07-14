@@ -15,13 +15,11 @@ Rules
 -----
 1. The added tool needs to be able to run from the command line.
 
-2. cryoHub follows RELION's convention for project and job organization, for example::
-
-   - project_name
-     - Import
-       - job001
+2. cryoHub follows RELION's convention for project and job organization, for example: ``<project name>/Import/job001``
 
 3. The command will be executed under the project directory.
+
+4. If there is any files being outputted, an argument indicate the output directory will need to be specified. cryoHub will set this as ``./<command name>/jobxxx`` by default.
 
 
 Example
@@ -30,10 +28,11 @@ Example
 Here is a snippet of an example yaml file::
 
     name: MotionCorr
+    custom_name: Motion Correction (RELION 3.1)
     command: mpirun -np 32 -oversubscribe relion_run_motioncorr_mpi
     queue_id: cpu
-    postprocess: ./postprocessing/mrc2png.py -i ./aa.mrc -o ./postprocess
-    file_postprocess: ./postprocessing/mrc2png.py -o ./postprocess -i
+    postprocess: echo ./corrected_micrographs.star
+    file_postprocess: ls
     arguments:
       - name: Input file
         arg: --i
@@ -57,5 +56,39 @@ Here is a snippet of an example yaml file::
 The resulting UI in the ``Command Runner`` is: [image]
 
 
+By clicking ``Run``, the command ``command`` will be executed from the project directory.
+
+
 Detailed description of the YAML file
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------
+
+Overall
+~~~~~~~
+
+``name``:
+
+``custom_name``:
+
+``command``:
+
+``queue_id``:
+
+``postprocess``:
+
+``file_postprocess``:
+
+
+Arguments
+~~~~~~~~~
+
+``name``:
+
+``arg``:
+
+``level``:
+
+``arg_type``:
+
+``description``:
+
+``default``:

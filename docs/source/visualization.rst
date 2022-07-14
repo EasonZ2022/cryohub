@@ -20,21 +20,21 @@ for visualization.
 Plain images
 ------------
 
-``File name``: any name other than the ones will be rendered through other widgets.
+**File name**: any name other than the ones will be rendered through other widgets.
 
-``File format``: any image format.
+**File format**: any image format.
 
-``Display``: plain images displayed sequentially with a fixed width. [image]
+**Display**: plain images displayed sequentially with a fixed width. [image]
 
 
 Images in a list
 ----------------
 
-``File name``: ``ls-*`` as the prefix (e.g. ``ls-aa.png``)
+**File name**: ``ls-*`` as the prefix (e.g. ``ls-aa.png``)
 
-``File format``: any image format.
+**File format**: any image format.
 
-``Display``: a list to select the image to display. The list contains the file names
+**Display**: a list to select the image to display. The list contains the file names
 (without the extension and without the prefix ``ls-``) of the images. [image]
 
 
@@ -42,9 +42,9 @@ Images in a list
 Visualization in groups
 -----------------------
 
-``File name``: ``itxxx-*`` as the prefix (e.g. ``it001-aa.png``, ``it016-aa.png``, ``it004-ls-aa.png``)
+**File name**: ``itxxx-*`` as the prefix (e.g. ``it001-aa.png``, ``it016-aa.png``, ``it004-ls-aa.png``)
 
-``File format``: any format that is useable for other widgets.
+**File format**: any format that is useable for other widgets.
 
-``Display``: the objects with the same prefix will be displayed.
+**Display**: the objects with the same prefix will be displayed.
 This widgets can be combined with others (e.g. ``it001-ls-*``). [image]

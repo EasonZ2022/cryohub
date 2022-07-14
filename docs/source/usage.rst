@@ -1,7 +1,7 @@
 Usage
 =====
 
-cryoHub uses React as the frontend framework, Node.js for backend and MariaDB as the database.
+cryoHub uses React for the frontend framework, Node.js for the backend and MariaDB for the database.
 
 
 Installation
