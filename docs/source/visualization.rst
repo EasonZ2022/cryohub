@@ -4,8 +4,7 @@ Visualization
 In cryoHub, we have created some pre-defined widget to display images and objects.
 We will continue to work on them and add new widgets.
 
-Visualization will be shown in the ``Visualization`` tab in each job card:
-[image]
+Visualization will be shown in the ``Visualization`` tab in each job card.
 
 In the file system, an optional folder can be created with the name ``postprocess``
 under the job folder (e.g. ``./Class2D/job016/postprocess``). cryoHub will try to render
@@ -36,6 +35,7 @@ Images in a list
 
 **Display**: a list to select the image to display. The list contains the file names
 (without the extension and without the prefix ``ls-``) of the images. [image]
+
 .. image:: images/ls-image.png
 
 
@@ -48,5 +48,6 @@ Visualization in groups
 **File format**: any format that is useable for other widgets.
 
 **Display**: the objects with the same prefix will be displayed. Prefix can be selected from a dropdown menu.
+
 .. image:: images/prefix-dropdown.png
 This widgets can be combined with others (e.g. ``it001-ls-*``).
