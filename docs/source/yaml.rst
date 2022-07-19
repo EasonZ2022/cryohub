@@ -126,7 +126,9 @@ the whole file system. However, if you know a valid path, you can override it by
 ``output_path``: Always disabled, and will be ``../<tool name>/jobxxx``, where the job index is automatically incremented. 
 It is highly recommended that each tool should have an argument with this arg_type as the output directory.
 
-``select``: The corresponding UI is a selectable dropdown menu. An example usage is::
+``select``: The corresponding UI is a selectable dropdown menu. 
+An example usage is::
+
     - name: Import Data Type
     level: basic
     arg_type: select
