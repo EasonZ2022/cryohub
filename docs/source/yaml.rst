@@ -57,7 +57,9 @@ Here is a snippet of an example yaml file::
 The resulting UI in the ``Command Runner`` is:
 
 .. image:: images/yml-demo-basic.png
-  
+
+and
+
 .. image:: images/yml-demo-advanced.png
 
 The user can change the parameters from the UI.
