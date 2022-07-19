@@ -24,7 +24,7 @@ Plain images
 
 **File format**: any image format.
 
-**Display**: plain images displayed sequentially with a fixed width. [image]
+**Display**: plain images displayed sequentially.
 
 
 Images in a list
@@ -36,6 +36,7 @@ Images in a list
 
 **Display**: a list to select the image to display. The list contains the file names
 (without the extension and without the prefix ``ls-``) of the images. [image]
+.. image:: images/ls-image.png
 
 
 
@@ -46,5 +47,6 @@ Visualization in groups
 
 **File format**: any format that is useable for other widgets.
 
-**Display**: the objects with the same prefix will be displayed.
-This widgets can be combined with others (e.g. ``it001-ls-*``). [image]
+**Display**: the objects with the same prefix will be displayed. Prefix can be selected from a dropdown menu.
+.. image:: images/prefix-dropdown.png
+This widgets can be combined with others (e.g. ``it001-ls-*``).
